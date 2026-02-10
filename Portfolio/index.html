@@ -85,7 +85,6 @@
         }
         .column {
             width: 50%;
-            height: 200px;
             padding: 20px;
             color: #222;
             background: rgba(255,255,255,0.6);
@@ -145,6 +144,15 @@
             text-shadow: 2px 2px 6px black;
         }
 
+        /* SECTION BOXES */
+        .section-box {
+            width: 80%;
+            margin: 60px auto;
+            background: rgba(255,255,255,0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
         /* FOOTER */
         footer {
             text-align: center;
@@ -171,7 +179,7 @@
     <img src="https://cdn.pixabay.com/photo/2025/09/08/04/00/bearded-dragon-9821324_1280.jpg" class="center-img" alt="Chaaban">
 </section>
 
-<!-- TABLE -->
+<!-- SKILLS TABLE -->
 <table>
     <tr>
         <th>Skill</th>
@@ -200,7 +208,8 @@
 </div>
 
 <!-- IMAGE OVERLAY FADE -->
-<div class="overlay-containerhttps://cdn.pixabay.com/photo/2025/09/08/04/00/bearded-dragon-9821324_1280.jpg://via.placeholder.com/800x400" alt="Overlay Image">
+<div class="overlay-container">
+    <img src="https://via.placeholder.com/800x400" alt="Overlay Image">
     <div class="fade-overlay"></div>
 </div>
 
@@ -211,6 +220,38 @@
     </video>
     <div class="video-text">My Video Project</div>
 </div>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section-box">
+    <h2>About Me</h2>
+    <p>
+        Hi! My name is Chaaban. I’m a web development student who enjoys creating clean, colorful, and interactive websites.
+        I’m currently learning HTML, CSS, and JavaScript, and I love experimenting with layouts, animations, and creative UI ideas.
+        This portfolio showcases some of the projects I’ve built as I continue growing my skills.
+    </p>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section-box">
+    <h2>My Projects</h2>
+
+    <h3>1. Portfolio Website</h3>
+    <p>
+        This website demonstrates my ability to structure a webpage using semantic HTML, apply CSS styling,
+        create layouts, and incorporate interactive elements like hover effects, overlays, and video backgrounds.
+    </p>
+
+    <h3>2. Bootstrap Movie Website</h3>
+    <p>
+        A responsive movie-themed website built using Bootstrap. It includes a navbar, jumbotron, movie cards,
+        showtime badges, and custom styling. This project helped me learn Bootstrap’s grid system and components.
+    </p>
+
+    <p>
+        View the full project files and README here:  
+        <a href="YOUR_GITHUB_REPO_LINK_HERE" target="_blank">GitHub Repository</a>
+    </p>
+</section>
 
 <!-- FOOTER -->
 <footer>
